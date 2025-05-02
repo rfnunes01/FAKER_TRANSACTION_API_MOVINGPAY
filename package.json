@@ -1,0 +1,27 @@
+{
+  "name": "faker-transaction-api",
+  "description": "Gerador de massa de teste e envio de payload com Axios",
+  "author": "Richael F Nunes",
+  "license": "ISC",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "axios": "^1.2.3",
+    "dotenv": "^16.5.0",
+    "moment": "^2.30.1",
+    "uuid": "^8.3.2"
+  }
+}
