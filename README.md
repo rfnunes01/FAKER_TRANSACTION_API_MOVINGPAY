@@ -3,6 +3,8 @@
 Geração e envio de transações fake para o Gateway da MovingPay.  
 Ideal para testes automatizados, ambientes de QA e geração de massa com variáveis configuráveis via `.env`.
 
+- Collection Postman: [https://documenter.getpostman.com/view/31104364/2sAY55Zx7Z](https://documenter.getpostman.com/view/31104364/2sAY55Zx7Z)
+
 ---
 
 ## 📂 Estrutura de Arquivos
