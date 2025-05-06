@@ -20,7 +20,7 @@ export const gerarPayload = () => {
   const paymentMethod  = isDebit ? 'CHCK' : installments === 1 ? 'CRDT' : 'CRDT_PARC';
 
   return {
-    cpf_cnpj                    :  documentNumber,
+    cpf_cnpj                    :  String(documentNumber).length < 11 ? String(documentNumber).padEnd(11, '0') :  String(documentNumber).padEnd(14, '0'),
     merchants_id_mvpay          :  String(documentNumber).length < 11 ? documentNumber :  null,
     referencia_externa          :  "",
     situacao                    :  "APPR",
