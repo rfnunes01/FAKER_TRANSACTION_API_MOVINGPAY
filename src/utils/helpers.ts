@@ -9,3 +9,6 @@ export const pickRandom           = <T>(lista: T[]): T => faker.helpers.arrayEle
 
 export const getCurrentDateTime   = (format?: string): string => moment().format(format ?? 'YYYY-MM-DD HH:mm:ss');
 
+export const sleep = async (ms: number) => {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
